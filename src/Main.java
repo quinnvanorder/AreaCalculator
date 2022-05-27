@@ -10,11 +10,12 @@ The method needs to return the area of a rectangle.
 If either or both parameters is negative, return -1
 
 TIP: the formula for calculating the area of a rectangle is X*Y
-TIP: the formula for calculating a circle area is radius * pi
+TIP: the formula for calculating a circle area is radius * radius * pi
 TIP: for pi, use a constant from the math class, Math.PI
  */
 public class Main {
     public static void main(String[] args) {
+        System.out.println(AreaCalculator.area(5,4));
 
     }
 }
